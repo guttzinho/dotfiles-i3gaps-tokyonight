@@ -1,0 +1,2 @@
+PROMPT='%B%F{003}%f %b '
+RPROMPT='%F{008}%1~%f'
