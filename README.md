@@ -21,4 +21,5 @@ Using [i3-gaps](http:/https://github.com/Airblader/i3/ "i3-gaps") as window mana
 
 #### See also
 **[dotfiles-kde](http://https://github.com/guttzinho/dotfiles-KDE "dotfiles-kde")** for my kde rice
+
 **[scripts](https://github.com/guttzinho/scripts)** for the scripts that I use
