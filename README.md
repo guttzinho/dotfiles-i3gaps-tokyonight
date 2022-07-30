@@ -12,10 +12,13 @@ Using [i3-gaps](http:/https://github.com/Airblader/i3/ "i3-gaps") as window mana
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-39.png?raw=true)
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-31.png?raw=true)
 
+### > Notifications
+Using [Dunst](https://github.com/dunst-project/dunst) to show notification (down right corner)
+![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-49.png?raw=true)
+
 ## > More screenshots
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-29.png?raw=true)
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-37.png?raw=true)
-
 
 ------------
 
