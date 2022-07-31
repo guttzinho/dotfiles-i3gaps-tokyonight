@@ -4,11 +4,13 @@ i3 i love you.
 ### > Polybar
 
 [Polybar](http://https://github.com/polybar/polybar "polybar") is my main and only top bar
+
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-48.png?raw=true)
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-49_1.png?raw=true)
 
 ### > i3-gaps + Picom
 Using [i3-gaps](http:/https://github.com/Airblader/i3/ "i3-gaps") as window manager and  [picom-jonaburg](http:/https://github.com/jonaburg/picom/ "picom-jonaburg") for compositor
+
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-39.png?raw=true)
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-31.png?raw=true)
 
