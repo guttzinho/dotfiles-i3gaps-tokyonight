@@ -26,6 +26,6 @@ Using [Dunst](https://github.com/dunst-project/dunst) to show notification (down
 ------------
 
 #### See also
-**[dotfiles-kde](http://https://github.com/guttzinho/dotfiles-KDE "dotfiles-kde")** for my kde rice
+**[dotfiles-kde](https://github.com/guttzinho/dotfiles-KDE")** for my kde rice
 
 **[scripts](https://github.com/guttzinho/scripts)** for the scripts that I use
