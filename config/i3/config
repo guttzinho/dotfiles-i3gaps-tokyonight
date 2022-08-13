@@ -3,6 +3,7 @@ hide_edge_borders none
 for_window [class="^.*"] border pixel 0
 gaps inner 5
 gaps outer 5
+border_radius 10
 
 bindsym $Alt+z		gaps outer current plus 5
 bindsym $ALT+Shift+z	gaps outer current minus 5
