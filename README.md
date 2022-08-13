@@ -9,7 +9,7 @@ i3 i love you.
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-49_1.png?raw=true)
 
 ### > i3-gaps + Picom
-Using [i3-gaps](http:/https://github.com/Airblader/i3/ "i3-gaps") as window manager and  [picom-jonaburg](http:/https://github.com/jonaburg/picom/ "picom-jonaburg") for compositor
+Using [i3-gaps-rounded-git](https://aur.archlinux.org/packages/i3-gaps-rounded-git "i3-gaps") as window manager and  [picom-jonaburg](http:/https://github.com/jonaburg/picom/ "picom-jonaburg") for compositor
 
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-39.png?raw=true)
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/2022-07-30_13-31.png?raw=true)
