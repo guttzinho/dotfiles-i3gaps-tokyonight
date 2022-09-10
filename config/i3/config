@@ -1,9 +1,9 @@
 #Needed for i3-gaps
-hide_edge_borders none
+hide_edge_borders smart_no_gaps
 for_window [class="^.*"] border pixel 0
 gaps inner 5
 gaps outer 5
-border_radius 10
+border_radius 4
 
 
 bindsym $Alt+z		gaps outer current plus 5
@@ -21,6 +21,7 @@ exec xset -dpms
 # enable floating mode
 for_window [class="metadata-cleaner"] floating enable
 for_window [class="ProtonUp-Qt"] floating enable
+for_window [class="Cawbird"] floating enable
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -120,7 +121,6 @@ client.unfocused        $bg     $bg     $fg     $bg
 client.urgent           $fg     $bg     $fg     $bg
 client.placeholder      $fg     $bg     $fg     $bg
 
-hide_edge_borders none
 
 # set display hdmi-0
 exec xrandr --output HDMI-0 --mode 1366x768
@@ -162,7 +162,8 @@ bindsym $mod+shift+m exec /home/gutt/Documents/scripts/toggle-mute
 # others
 bindsym Print exec flameshot gui
 bindsym Shift+Print exec flameshot screen
-bindsym $Alt+d exec ~/.config/rofi/launchers/type-1/launcher.sh
+bindsym $mod+d exec ~/.config/rofi/powermenu/type-2/powermenu.sh
+bindsym $Alt+d exec ~/.config/rofi/launchers/type-2/launcher.sh
 bindsym $Alt+r exec feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
 
 # Set Brazillian keyboard
