@@ -121,11 +121,6 @@ client.unfocused        $bg     $bg     $fg     $bg
 client.urgent           $fg     $bg     $fg     $bg
 client.placeholder      $fg     $bg     $fg     $bg
 
-
-# set display hdmi-0
-exec xrandr --output HDMI-0 --mode 1366x768
-
-
 # Wallpaper settings
 # exec_always feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/landescape
 exec --no-startup-id feh --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
@@ -169,6 +164,6 @@ bindsym $Alt+r exec feh --recursive --bg-fill --randomize /home/gutt/Pictures/wa
 # Set Brazillian keyboard
 exec setxkbmap br
 
-# Set resoultion
-exec xrandr --output VGA-1 --mode 1366x768
+# Set monitor(s)
+exec xrandr --output DisplayPort-0 --mode 1366x768
 
