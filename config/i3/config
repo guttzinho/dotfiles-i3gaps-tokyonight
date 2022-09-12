@@ -166,6 +166,7 @@ bindsym $mod+minus exec /home/gutt/Documents/scripts/volume-
 bindsym $mod+shift+m exec /home/gutt/Documents/scripts/toggle-mute
 
 # others
+bindsym $mod+l exec i3lock-fancy -f "Inter-Bold" -t "type something." 
 bindsym Print exec flameshot gui
 bindsym Shift+Print exec flameshot screen
 bindsym $mod+d exec ~/.config/rofi/powermenu/type-2/powermenu.sh
