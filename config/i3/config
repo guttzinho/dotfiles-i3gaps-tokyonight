@@ -23,6 +23,7 @@ for_window [class="metadata-cleaner"] floating enable
 for_window [class="ProtonUp-Qt"] floating enable
 for_window [class="Cawbird"] floating enable
 for_window [class="Bitwarden"] floating enable
+for_window [title="ripdrag"] floating enable
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -166,12 +167,13 @@ bindsym $mod+minus exec /home/gutt/Documents/scripts/volume-
 bindsym $mod+shift+m exec /home/gutt/Documents/scripts/toggle-mute
 
 # others
-bindsym $mod+l exec ~/Documents/scripts/lockscreen.sh 
+bindsym $mod+l exec ~/Documents/scripts/lockscreen.sh
 bindsym Print exec flameshot gui
 bindsym Shift+Print exec flameshot screen
 bindsym $mod+d exec ~/.config/rofi/powermenu/type-2/powermenu.sh
 bindsym $Alt+d exec ~/.config/rofi/launchers/type-2/launcher.sh
 bindsym $Alt+r exec feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
+bindsym $Alt+x exec polybar-msg cmd toggle
 
 # eww (test)
 bindsym $mod+shift+c exec eww open-many --toggle player weather profile quote search_full disturb-icon vpn-icon home_dir screenshot power_full reboot_full lock_full logout_full suspend_full
