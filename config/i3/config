@@ -72,7 +72,7 @@ exec firefox
 for_window [class="firefox"] move to workspace firefox
 bindsym $Alt+b workspace firefox
 
-exec Discord
+exec flatpak run com.discordapp.Discord
 for_window [class="discord"] move to workspace discord
 bindsym $Alt+v workspace discord
 
@@ -175,8 +175,11 @@ bindsym $Alt+d exec ~/.config/rofi/launchers/type-2/launcher.sh
 bindsym $Alt+r exec feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
 bindsym $Alt+x exec polybar-msg cmd toggle
 
-# eww (test)
-bindsym $mod+shift+c exec eww open-many --toggle player weather profile quote search_full disturb-icon vpn-icon home_dir screenshot power_full reboot_full lock_full logout_full suspend_full
+# disable all shortcuts (for fullscreen apps)
+mode "passthrough" {
+    bindsym $Mod+Escape exec i3-msg "mode" "default"
+}
+bindsym $Mod+Escape exec i3-msg "mode" "passthrough"
 
 # Set Brazillian keyboard
 exec setxkbmap br
