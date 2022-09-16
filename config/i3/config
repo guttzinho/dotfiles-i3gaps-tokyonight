@@ -69,8 +69,8 @@ for_window [class="Spotify"] move to workspace spotify
 bindsym $Alt+s workspace spotify
 
 exec brave-browser
-for_window [class="Brave-browser"] move to workspace firefox
-bindsym $Alt+b workspace firefox
+for_window [class="Brave-browser"] move to workspace browser
+bindsym $Alt+b workspace browser
 
 exec flatpak run com.discordapp.Discord
 for_window [class="discord"] move to workspace discord
