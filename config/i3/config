@@ -3,7 +3,7 @@ hide_edge_borders smart_no_gaps
 for_window [class="^.*"] border pixel 0
 gaps inner 5
 gaps outer 5
-border_radius 6
+border_radius 4
 
 
 bindsym $Alt+z		gaps outer current plus 5
@@ -68,8 +68,8 @@ exec flatpak run com.spotify.Client
 for_window [class="Spotify"] move to workspace spotify
 bindsym $Alt+s workspace spotify
 
-exec firefox
-for_window [class="firefox"] move to workspace firefox
+exec brave-browser
+for_window [class="Brave-browser"] move to workspace firefox
 bindsym $Alt+b workspace firefox
 
 exec flatpak run com.discordapp.Discord
