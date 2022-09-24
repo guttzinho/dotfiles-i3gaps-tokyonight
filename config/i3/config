@@ -1,5 +1,4 @@
 #Needed for i3-gaps
-hide_edge_borders smart_no_gaps
 for_window [class="^.*"] border pixel 0
 gaps inner 5
 gaps outer 5
@@ -72,7 +71,7 @@ exec brave-browser
 for_window [class="Brave-browser"] move to workspace browser
 bindsym $Alt+b workspace browser
 
-exec flatpak run com.discordapp.Discord
+exec Discord
 for_window [class="discord"] move to workspace discord
 bindsym $Alt+v workspace discord
 
@@ -139,7 +138,7 @@ exec --no-startup-id feh --bg-fill --randomize /home/gutt/Pictures/wall/cyberpun
 
 # Auto exec settings (basicly reloads with i3)
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always picom -b --experimental-backends
+exec_always --no-startup-id $HOME/.config/picom/launch.sh
 exec_always systemctl --user restart dunst.service
 exec_always --no-startup-id ~/Documents/scripts/autotiling.py
 
@@ -150,9 +149,6 @@ exec playerctld
 
 # apps
 bindsym $Alt+f exec kitty -e ranger
-# bindsym $Alt+b exec firefox
-# bindsym $Alt+m exec flatpak run com.spotify.Client
-
 bindsym $Alt+shift+f exec nautilus
 bindsym $Alt+c exec kitty
 
@@ -178,6 +174,14 @@ bindsym $Alt+x exec polybar-msg cmd toggle
 # disable all shortcuts (for fullscreen apps)
 mode "passthrough" {
     bindsym $Mod+Escape exec i3-msg "mode" "default"
+	bindsym $mod+shift+a exec /home/gutt/Documents/scripts/audio-device-changer
+	bindsym XF86AudioNext exec playerctl next
+	bindsym XF86AudioPlay exec playerctl play-pause
+	bindsym XF86AudioStop exec playerctl play-pause
+	bindsym XF86AudioPrev exec playerctl previous
+	bindsym $mod+equal exec /home/gutt/Documents/scripts/volume+
+	bindsym $mod+minus exec /home/gutt/Documents/scripts/volume-
+	bindsym $mod+shift+m exec /home/gutt/Documents/scripts/toggle-mute
 }
 bindsym $Mod+Escape exec i3-msg "mode" "passthrough"
 
