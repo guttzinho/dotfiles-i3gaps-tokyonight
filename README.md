@@ -16,7 +16,6 @@ I added some blur that hot rounded corners beautiful gaps and everything just wo
 From left to right, it is a powermenu, i3 workspaces, clock, source and sink audio controllers and at last the system tray.   
 
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/polybar1.png?raw=true)
-![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/polybar2.png?raw=true)
 
 ----
 
