@@ -21,7 +21,7 @@ From left to right, it is a powermenu, i3 workspaces, clock, source and sink aud
 
 ##  ➕ Extra things
 
-* firefox custom css [here](https://github.com/black7375/Firefox-UI-Fix)  
+* brave theme
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/firefox.png?raw=true)
 * terminal prompt  [headline-prompt](https://github.com/Moarram/headline)  
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/prompt.jpg?raw=true) 
