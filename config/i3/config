@@ -134,7 +134,7 @@ client.placeholder      $fg     $bg     $fg     $bg
 
 # Wallpaper settings
 # exec_always feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/landescape
-exec --no-startup-id feh --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
+exec --no-startup-id feh --bg-fill /home/gutt/Pictures/wall/cyberpunk-mostly-anime
 
 # Auto exec settings (basicly reloads with i3)
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh

@@ -73,7 +73,7 @@
     # Draw a line of "separator_height" pixel height between two
     # notifications.
     # Set to 0 to disable.
-    separator_height = 4
+    separator_height = 0
 
     # Padding between text and separator.
     padding = 10
@@ -86,10 +86,10 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 0
+    frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#0d0d0d"
+    frame_color = "#1b1b23"
 
     # Define a color for the separator.
     # possible values are:
@@ -111,7 +111,7 @@
 
     ### Text ###
 
-    font = FiraCode Bold 8
+    font = Noto Sans 8
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -289,17 +289,17 @@
     per_monitor_dpi = false
 
 [urgency_low]
-	background = "#0d0d0d"
+	background = "#16161e"
 	foreground = "#ffffff"
 
 [urgency_normal]
-	background = "#0d0d0d"
+	background = "#16161e"
 	foreground = "#ffffff"
 
 [urgency_critical]
-	background = "#0d0d0d"
+	background = "#16161e"
 	foreground = "#ffffff"
-	frame_color = "#F8BD96"
+	frame_color = "#f43880"
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
