@@ -28,4 +28,5 @@ From left to right, it is a powermenu, i3 workspaces, clock, source and sink aud
 
 ### 👋 My other repos  
 [scripts](https://github.com/guttzinho/scripts)  
-[dotfiles-KDE](https://github.com/guttzinho/dotfiles-KDE)
+[dotfiles-KDE](https://github.com/guttzinho/dotfiles-KDE)  
+[don't click](https://youtu.be/dQw4w9WgXcQ)  

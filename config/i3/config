@@ -154,10 +154,10 @@ bindsym $Alt+c exec kitty
 
 # audio
 bindsym $mod+shift+a exec /home/gutt/Documents/scripts/audio-device-changer
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioStop exec playerctl play-pause
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioNext exec playerctl -p spotify next
+bindsym XF86AudioPlay exec playerctl -p spotify play-pause
+bindsym XF86AudioStop exec playerctl -p spotify play-pause
+bindsym XF86AudioPrev exec playerctl -p spotify previous
 bindsym $mod+equal exec /home/gutt/Documents/scripts/volume+
 bindsym $mod+minus exec /home/gutt/Documents/scripts/volume-
 bindsym $mod+shift+m exec /home/gutt/Documents/scripts/toggle-mute
