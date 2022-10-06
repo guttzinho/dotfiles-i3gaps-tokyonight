@@ -2,7 +2,7 @@
 
 [global]
     ### Display ###
-	timeout = 2
+	timeout = 1
     # Which monitor should the notifications be displayed on.
     monitor = 0
 
@@ -164,7 +164,7 @@
     # Show age of message if message is older than show_age_threshold
     # seconds.
     # Set to -1 to disable.
-    show_age_threshold = -1
+    show_age_threshold = 15
 
     # Specify where to make an ellipsis in long lines.
     # Possible values are "start", "middle" and "end".
@@ -212,7 +212,7 @@
     dmenu = /usr/bin/dmenu-recent-aliases -p dunst:
 
     # Browser for opening urls in context menu.
-    browser = /usr/bin/firefox -new-tab
+    browser = /usr/bin/brave-browser --new-tab
 
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
@@ -234,7 +234,7 @@
     # Useful to enforce the timeout set by dunst configuration. Without this
     # parameter, an application may close the notification sent before the
     # user defined timeout.
-    ignore_dbusclose = false
+    ignore_dbusclose = true
 
     ### Wayland ###
     # These settings are Wayland-specific. They have no effect when using X11
@@ -325,7 +325,6 @@
 #    set_stack_tag
 #    set_transient
 #    set_category
-#timeout				25
 #    urgency
 #    skip_display
 #    history_ignore
@@ -411,11 +410,6 @@
 #    appname = Pidgin
 #    summary = *says*
 #    urgency = critical
-#
-#[twitter]
-#    appname = Pidgin
-#    summary = *twitter.com*
-#    urgency = normal
 #
 #[stack-volumes]
 #    appname = "some_volume_notifiers"
