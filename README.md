@@ -24,7 +24,7 @@ From left to right, it is a powermenu, i3 workspaces, clock, source and sink aud
 * brave theme
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/firefox.png?raw=true)
 * terminal prompt  [headline-prompt](https://github.com/Moarram/headline)  
-![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/prompt.jpg?raw=true) 
+![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/screenshots/prompt.png?raw=true) 
 
 ### 👋 My other repos  
 [scripts](https://github.com/guttzinho/scripts)  
