@@ -134,7 +134,7 @@ client.placeholder      $fg     $bg     $fg     $bg
 
 # Wallpaper settings
 # exec_always feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/landescape
-exec_always --no-startup-id feh --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime/
+exec_always --no-startup-id feh --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime/11.png
 
 # Auto exec settings (basicly reloads with i3)
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -170,7 +170,7 @@ bindsym Print exec flameshot gui
 bindsym Shift+Print exec flameshot screen
 bindsym $mod+d exec ~/.config/rofi/powermenu/type-2/powermenu.sh
 bindsym $Alt+d exec ~/.config/rofi/launchers/type-2/launcher.sh
-bindsym $Alt+r exec feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
+# bindsym $Alt+r exec feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
 bindsym $Alt+x exec polybar-msg cmd toggle
 
 # disable all shortcuts (for fullscreen apps)
