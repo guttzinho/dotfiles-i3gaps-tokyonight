@@ -1,0 +1,33 @@
+default_icon: "\ue163"
+padding: 1
+capitalize: true
+
+workspace: # placeholder
+  enabled: true
+  icon:
+  title: Desktop
+
+mappings:
+- class: firefox
+  title: Firefox
+  icon: "\uf269"
+- class: kitty
+  title: Kitty
+  icon: "\uf120"
+- class: discord
+  title: Discord
+  icon: "\uf392"
+- class: spotify
+  title: Spotify
+  icon: "\uf1bc"
+- class: steam
+  title: Steam
+  icon: "\uf1b6"
+- class: lutris
+  title: Lutris
+  icon: "\uf11b"
+  show_native_title: false
+
+native_title_separators:
+  start: "<"
+  end: ">"
