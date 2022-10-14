@@ -23,6 +23,7 @@ for_window [class="ProtonUp-Qt"] floating enable
 for_window [class="Cawbird"] floating enable
 for_window [class="Bitwarden"] floating enable
 for_window [title="ripdrag"] floating enable
+for_window [class="guiscrcpy"] floating enable
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -67,11 +68,15 @@ exec flatpak run com.spotify.Client
 for_window [class="Spotify"] move to workspace spotify
 bindsym $Alt+s workspace spotify
 
-exec brave-browser
-for_window [class="Brave-browser"] move to workspace browser
+#exec brave-browser
+#for_window [class="Brave-browser"] move to workspace browser
+#bindsym $Alt+b workspace browser
+
+exec firefox-x11
+for_window [class="firefox"] move to workspace browser
 bindsym $Alt+b workspace browser
 
-exec Discord
+exec discord
 for_window [class="discord"] move to workspace discord
 bindsym $Alt+v workspace discord
 
@@ -141,11 +146,12 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id $HOME/.config/picom/launch.sh
 exec_always systemctl --user restart dunst.service
 exec_always --no-startup-id ~/Documents/scripts/autotiling.py
+exec_always ~/Documents/scripts/polybar/border.sh
 
 # Startup scripts
 exec playerctld
 exec ~/Appimages/PreMiD-Portable.AppImage
-exec_always ~/Documents/scripts/polybar/border.sh
+exec /lib64/jellyfin/jellyfin # I know it should not be here.
 
 # exec shortcuts
 
@@ -172,6 +178,7 @@ bindsym $mod+d exec ~/.config/rofi/powermenu/type-2/powermenu.sh
 bindsym $Alt+d exec ~/.config/rofi/launchers/type-2/launcher.sh
 # bindsym $Alt+r exec feh --recursive --bg-fill --randomize /home/gutt/Pictures/wall/cyberpunk-mostly-anime
 bindsym $Alt+x exec polybar-msg cmd toggle
+bindsym $mod+Shift+l exec ~/Documents/scripts/cool-retro-term.sh
 
 # disable all shortcuts (for fullscreen apps)
 mode "passthrough" {
