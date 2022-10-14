@@ -8,12 +8,18 @@ workspace: # placeholder
   title: Desktop
 
 mappings:
+- class: org.gnome.Nautilus
+  title: Files
+  icon: "\uf74a"
 - class: firefox
   title: Firefox
   icon: "\uf269"
 - class: kitty
   title: Kitty
   icon: "\uf120"
+- class: imv
+  title: Imv
+  icon: "\uf74e"
 - class: discord
   title: Discord
   icon: "\uf392"
