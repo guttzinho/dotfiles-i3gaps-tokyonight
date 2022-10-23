@@ -159,6 +159,7 @@ exec /lib64/jellyfin/jellyfin # I know it should not be here.
 bindsym $Alt+f exec kitty -e ranger
 bindsym $Alt+shift+f exec nautilus
 bindsym $Alt+c exec kitty
+bindsym $Alt+shift+b exec brave-browser
 
 # audio
 bindsym $mod+shift+a exec /home/gutt/Documents/scripts/audio-device-changer

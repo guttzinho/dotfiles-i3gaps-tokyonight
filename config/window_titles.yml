@@ -8,30 +8,36 @@ workspace: # placeholder
   title: Desktop
 
 mappings:
+- class: google-chrome
+  title: Google Chrome
+  icon: 
+- class: brave-browser
+  title: Brave
+  icon: 
 - class: org.gnome.Nautilus
   title: Files
-  icon: "\uf74a"
+  icon: 
 - class: firefox
   title: Firefox
-  icon: "\uf269"
+  icon: 
 - class: kitty
   title: Kitty
-  icon: "\uf120"
+  icon: 
 - class: imv
   title: Imv
-  icon: "\uf74e"
+  icon: 
 - class: discord
   title: Discord
-  icon: "\uf392"
+  icon: ﭮ
 - class: spotify
   title: Spotify
-  icon: "\uf1bc"
+  icon: 
 - class: steam
   title: Steam
-  icon: "\uf1b6"
+  icon: 
 - class: lutris
   title: Lutris
-  icon: "\uf11b"
+  icon: 
   show_native_title: false
 
 native_title_separators:
