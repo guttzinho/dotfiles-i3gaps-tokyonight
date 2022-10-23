@@ -13,7 +13,7 @@ I am using [I3-gaps-rounded](https://github.com/jbenden/i3-gaps-rounded) with [P
 I added some blur that hot rounded corners beautiful gaps and everything just works like a charm
 
 ### 🧩 Polybar
-From left to right, it is a powermenu, i3 workspaces, clock, source and sink audio controllers and at last the system tray.   
+From left to right, it is i3 workspaces, spotify, app title, souce (mic), sink (headset/speakers), clock and systray.   
 
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/pics/polybar1.png?raw=true)
 
@@ -21,7 +21,7 @@ From left to right, it is a powermenu, i3 workspaces, clock, source and sink aud
 
 ##  ➕ Extra things
 
-* brave theme
+* firefox theme
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/pics/firefox.png?raw=true)
 * terminal prompt  [headline-prompt](https://github.com/Moarram/headline)  
 ![](https://github.com/guttzinho/dotfiles-i3gaps/blob/main/pics/prompt.png?raw=true) 
